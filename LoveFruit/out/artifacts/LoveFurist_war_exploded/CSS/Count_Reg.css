@@ -1,0 +1,134 @@
+/*去掉li的小黑点*/
+li{
+    list-style: none;
+}
+
+
+
+/*一个大的div*/
+.register_con{
+    width: 700px;
+    height: 560px;
+    margin: 50px auto 0;
+}
+
+.register_con .error_tip{
+    display: none;
+}
+/*浮动*/
+
+.reg_title h1{
+    font-weight: bold;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    font-size: 24px;
+    color: #a8a8a8;
+}
+
+.reg_title a{
+   float: right;
+    height: 20px;
+    line-height: 20px;
+    font-size: 16px;
+    color: chartreuse;
+    /*向左移动*/
+    padding-right: 20px;
+    background: url("../image/icons02.png") 35px 3px no-repeat;
+    margin-top: 23px;
+}
+
+/*将用户注册和登录放在一起*/
+.reg_title{
+    width: 360px;
+    height: 55px;
+    float: left;
+    margin-left: 30px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+/*关于注册的*/
+.reg_form{
+    width: 360px;
+    margin: 30px 0 0 30px;
+    float: left;
+    position: relative;
+}
+
+/*对label设计字体*/
+.reg_form li label{
+    width: 70px;
+    height: 40px;
+    line-height: 40px;
+    float:left;
+    font-size: 14px;
+    color: #a8a8a8;
+}
+.reg_form li{
+    height: 70px;
+}
+
+.reg_form li input{
+    width: 215px;
+    height: 30px;
+    border: 1px solid #e0e0e0;
+    float: left;
+    outline: none;
+    text-indent: 10px;
+    background-color: #f8f8f8;
+}
+.error_tip2{
+    display: none;
+}
+
+.reg_form .agreement label{
+    width: 200px;
+    float: left;
+    height: 30px;
+    line-height: 30px;
+    margin-top: 2px;
+}
+
+#allow{
+    width: 20px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.reg_form .reg_sub input{
+    width: 296px;
+    height: 40px;
+    background-color: chartreuse;
+    font-size: 18px;
+    color: #fff;
+    font-family: 'Microsoft Sans Serif';
+}
+
+/*对图片*/
+.register_con .reg_logo{
+    width: 184px;
+    height: 168px;
+    float: left;
+    margin-left: 60px;
+}
+
+.register_con .div_tip{
+    height: 30px;
+    width: 300px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 40px;
+    text-align: left;
+    color: chartreuse;
+    font-size: 32px;
+    line-height: 30px;
+}
+
+.register_con .l_con{
+    width: 300px;
+}
+
+.fl{
+    float: left;
+}
+

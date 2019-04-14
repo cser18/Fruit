@@ -1,0 +1,132 @@
+/*这是登录的css样式表*/
+.login_top{
+    width: 960px;
+    height: 170px;
+    margin: 0 auto;
+}
+.login_tip{
+    width: 960px;
+    height: 500px;
+    border: 1px solid greenyellow;
+    margin: 50px auto 0;
+}
+.login_tip h1{
+    float: left;
+    color: #e0e0e0;
+    font-size: 30px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.login_title a{
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    float: right;
+    font-size: 18px;
+    color: chartreuse;
+    margin-top: 26px;
+    padding-left: 20px;
+    padding-top: 3px;
+    background: url("../image/icons02.png") left 5px no-repeat;
+}
+
+.login_form{
+    width: 368px;
+    height: 378px;
+    border: 1px solid gray;
+    background-color: #fff;
+
+}
+
+.clearfix{
+    zoom: 1;
+}
+
+/*对用户名窗口*/
+.form_input .input_user{
+    width: 320px;
+    height: 36px;
+    border: 1px solid #e0e0e0;
+    margin-top: 20px;
+    margin-left: 15px;
+    outline: none;
+    font-size: 14px;
+    text-indent: 10px;
+    background: url("../image/icons02.png") 293px -41px no-repeat;
+}
+
+.form_input .input_password{
+    width: 320px;
+    height: 36px;
+    border: 1px solid #e0e0e0;
+    margin-top: 20px;
+    margin-left: 15px;
+    outline: none;
+    font-size: 14px;
+    text-indent: 10px;
+    background: url("../image/icons02.png") 293px -91px no-repeat;
+}
+
+.error_user{
+    color: red;
+    position: absolute;
+    left: 26px;
+    display: none;
+}
+
+.error_pwd{
+    color: red;
+    position: absolute;
+    left: 26px;
+    display: none;
+}
+
+.login_tip .sub{
+    width: 320px;
+    height: 35px;
+    border: 0px solid green;
+    line-height: 35px;
+    font-size: 18px;
+    background-color: green;
+    position: absolute;
+}
+
+.clearfix{
+    width: 320px;
+    margin-left: 28px;
+}
+
+.more_input a{
+    color: #4e4e4e;
+    text-decoration: none;
+    font-size: 10px;
+    float: right;
+    margin-top: 10px;
+    position: relative;
+}
+
+.more_input label{
+    color: #4e4e4e;
+    font-size: 10px;
+    float: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    position: relative;
+}
+.more_input input{
+    float: left;
+    margin-top: 12px;
+    position: relative;
+}
+
+.login_tip .sub{
+    float: left;
+    margin-top: 80px;
+    margin-left: 15px;
+}
+
+.fr{
+    float: right;
+}

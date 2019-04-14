@@ -1,0 +1,12 @@
+body {
+    font-family: 'Microsoft Yahei';
+    font-size: 12px;
+    color: #666;
+}
+
+.right_content {
+    width: 980px;
+    float: right;
+    min-height: 500px;
+}
+
